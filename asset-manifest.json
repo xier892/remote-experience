@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.381f6216.chunk.css",
-    "main.js": "/static/js/main.a8689e6b.chunk.js",
-    "main.js.map": "/static/js/main.a8689e6b.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.568b431c.js",
-    "runtime-main.js.map": "/static/js/runtime-main.568b431c.js.map",
-    "static/js/2.b35b99b3.chunk.js": "/static/js/2.b35b99b3.chunk.js",
-    "static/js/2.b35b99b3.chunk.js.map": "/static/js/2.b35b99b3.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.4d63df8ab376d6d46ce4cc425153e2ad.js": "/precache-manifest.4d63df8ab376d6d46ce4cc425153e2ad.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.381f6216.chunk.css.map": "/static/css/main.381f6216.chunk.css.map",
-    "static/js/2.b35b99b3.chunk.js.LICENSE.txt": "/static/js/2.b35b99b3.chunk.js.LICENSE.txt",
-    "static/media/eyelid.8f48498b.svg": "/static/media/eyelid.8f48498b.svg",
-    "static/media/iris.caa56a2b.svg": "/static/media/iris.caa56a2b.svg"
+    "main.css": "/remote-experience/static/css/main.381f6216.chunk.css",
+    "main.js": "/remote-experience/static/js/main.b63b7826.chunk.js",
+    "main.js.map": "/remote-experience/static/js/main.b63b7826.chunk.js.map",
+    "runtime-main.js": "/remote-experience/static/js/runtime-main.7d728162.js",
+    "runtime-main.js.map": "/remote-experience/static/js/runtime-main.7d728162.js.map",
+    "static/js/2.b35b99b3.chunk.js": "/remote-experience/static/js/2.b35b99b3.chunk.js",
+    "static/js/2.b35b99b3.chunk.js.map": "/remote-experience/static/js/2.b35b99b3.chunk.js.map",
+    "index.html": "/remote-experience/index.html",
+    "precache-manifest.d225dc2da9e60981d26ea70052805f2e.js": "/remote-experience/precache-manifest.d225dc2da9e60981d26ea70052805f2e.js",
+    "service-worker.js": "/remote-experience/service-worker.js",
+    "static/css/main.381f6216.chunk.css.map": "/remote-experience/static/css/main.381f6216.chunk.css.map",
+    "static/js/2.b35b99b3.chunk.js.LICENSE.txt": "/remote-experience/static/js/2.b35b99b3.chunk.js.LICENSE.txt",
+    "static/media/eyelid.8f48498b.svg": "/remote-experience/static/media/eyelid.8f48498b.svg",
+    "static/media/iris.caa56a2b.svg": "/remote-experience/static/media/iris.caa56a2b.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.568b431c.js",
+    "static/js/runtime-main.7d728162.js",
     "static/js/2.b35b99b3.chunk.js",
     "static/css/main.381f6216.chunk.css",
-    "static/js/main.a8689e6b.chunk.js"
+    "static/js/main.b63b7826.chunk.js"
   ]
 }
