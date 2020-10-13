@@ -4,6 +4,8 @@ object-assign
 @license MIT
 */
 
+/*! Source code licensed under Apache License 2.0. Copyright © 2017-current William Ngan and contributors. (https://github.com/williamngan/pts) */
+
 /** @license React v0.19.1
  * scheduler.production.min.js
  *
