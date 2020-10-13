@@ -1,24 +1,39 @@
 {
   "files": {
-    "main.css": "/remote-experience/static/css/main.381f6216.chunk.css",
-    "main.js": "/remote-experience/static/js/main.b63b7826.chunk.js",
-    "main.js.map": "/remote-experience/static/js/main.b63b7826.chunk.js.map",
+    "main.css": "/remote-experience/static/css/main.0353b668.chunk.css",
+    "main.js": "/remote-experience/static/js/main.130f16cd.chunk.js",
+    "main.js.map": "/remote-experience/static/js/main.130f16cd.chunk.js.map",
     "runtime-main.js": "/remote-experience/static/js/runtime-main.7d728162.js",
     "runtime-main.js.map": "/remote-experience/static/js/runtime-main.7d728162.js.map",
-    "static/js/2.b35b99b3.chunk.js": "/remote-experience/static/js/2.b35b99b3.chunk.js",
-    "static/js/2.b35b99b3.chunk.js.map": "/remote-experience/static/js/2.b35b99b3.chunk.js.map",
+    "static/js/2.a99b325b.chunk.js": "/remote-experience/static/js/2.a99b325b.chunk.js",
+    "static/js/2.a99b325b.chunk.js.map": "/remote-experience/static/js/2.a99b325b.chunk.js.map",
     "index.html": "/remote-experience/index.html",
-    "precache-manifest.d225dc2da9e60981d26ea70052805f2e.js": "/remote-experience/precache-manifest.d225dc2da9e60981d26ea70052805f2e.js",
+    "precache-manifest.73f0cd9c68ed755559b29358e5bbd35d.js": "/remote-experience/precache-manifest.73f0cd9c68ed755559b29358e5bbd35d.js",
     "service-worker.js": "/remote-experience/service-worker.js",
-    "static/css/main.381f6216.chunk.css.map": "/remote-experience/static/css/main.381f6216.chunk.css.map",
-    "static/js/2.b35b99b3.chunk.js.LICENSE.txt": "/remote-experience/static/js/2.b35b99b3.chunk.js.LICENSE.txt",
+    "static/css/main.0353b668.chunk.css.map": "/remote-experience/static/css/main.0353b668.chunk.css.map",
+    "static/js/2.a99b325b.chunk.js.LICENSE.txt": "/remote-experience/static/js/2.a99b325b.chunk.js.LICENSE.txt",
+    "static/media/Error 1.m4a": "/remote-experience/static/media/Error 1.4c8cd6ea.m4a",
+    "static/media/Error 2.m4a": "/remote-experience/static/media/Error 2.62a31a9d.m4a",
+    "static/media/Error 3.m4a": "/remote-experience/static/media/Error 3.6839aea3.m4a",
+    "static/media/Error 4.m4a": "/remote-experience/static/media/Error 4.84220357.m4a",
+    "static/media/Error 5.m4a": "/remote-experience/static/media/Error 5.11d5a413.m4a",
+    "static/media/click.m4a": "/remote-experience/static/media/click.e149bd38.m4a",
+    "static/media/crying.wav": "/remote-experience/static/media/crying.2f8ab1f2.wav",
+    "static/media/crying.mp3": "/remote-experience/static/media/crying.dbb82882.mp3",
+    "static/media/duck.91f550b0.svg": "/remote-experience/static/media/duck.91f550b0.svg",
     "static/media/eyelid.8f48498b.svg": "/remote-experience/static/media/eyelid.8f48498b.svg",
-    "static/media/iris.caa56a2b.svg": "/remote-experience/static/media/iris.caa56a2b.svg"
+    "static/media/iris.caa56a2b.svg": "/remote-experience/static/media/iris.caa56a2b.svg",
+    "static/media/typography.css": "/remote-experience/static/media/marlett.ffe58ece.ttf",
+    "static/media/open.mp3": "/remote-experience/static/media/open.d87e265c.mp3",
+    "static/media/open.wav": "/remote-experience/static/media/open.fbd281e6.wav",
+    "static/media/zoombell.ogg": "/remote-experience/static/media/zoombell.0752b101.ogg",
+    "static/media/zoombell.mp3": "/remote-experience/static/media/zoombell.24224a59.mp3",
+    "static/media/zoombell.wav": "/remote-experience/static/media/zoombell.39c092f4.wav"
   },
   "entrypoints": [
     "static/js/runtime-main.7d728162.js",
-    "static/js/2.b35b99b3.chunk.js",
-    "static/css/main.381f6216.chunk.css",
-    "static/js/main.b63b7826.chunk.js"
+    "static/js/2.a99b325b.chunk.js",
+    "static/css/main.0353b668.chunk.css",
+    "static/js/main.130f16cd.chunk.js"
   ]
 }
