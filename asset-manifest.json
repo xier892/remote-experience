@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/remote-experience/static/css/main.217272cd.chunk.css",
-    "main.js": "/remote-experience/static/js/main.ecaacc36.chunk.js",
-    "main.js.map": "/remote-experience/static/js/main.ecaacc36.chunk.js.map",
+    "main.js": "/remote-experience/static/js/main.21f93a95.chunk.js",
+    "main.js.map": "/remote-experience/static/js/main.21f93a95.chunk.js.map",
     "runtime-main.js": "/remote-experience/static/js/runtime-main.7d728162.js",
     "runtime-main.js.map": "/remote-experience/static/js/runtime-main.7d728162.js.map",
     "static/js/2.b4c31c08.chunk.js": "/remote-experience/static/js/2.b4c31c08.chunk.js",
     "static/js/2.b4c31c08.chunk.js.map": "/remote-experience/static/js/2.b4c31c08.chunk.js.map",
     "index.html": "/remote-experience/index.html",
-    "precache-manifest.579ee1d055c31fa8d5a9bbecf554b386.js": "/remote-experience/precache-manifest.579ee1d055c31fa8d5a9bbecf554b386.js",
+    "precache-manifest.e21ef2213612a91bce36412d3118301a.js": "/remote-experience/precache-manifest.e21ef2213612a91bce36412d3118301a.js",
     "service-worker.js": "/remote-experience/service-worker.js",
     "static/css/main.217272cd.chunk.css.map": "/remote-experience/static/css/main.217272cd.chunk.css.map",
     "static/js/2.b4c31c08.chunk.js.LICENSE.txt": "/remote-experience/static/js/2.b4c31c08.chunk.js.LICENSE.txt",
@@ -33,8 +33,8 @@
     "static/media/Expand.m4a": "/remote-experience/static/media/Expand.798133ca.m4a",
     "static/media/arrow-left.64442a05.svg": "/remote-experience/static/media/arrow-left.64442a05.svg",
     "static/media/arrow-right.fa986b3d.svg": "/remote-experience/static/media/arrow-right.fa986b3d.svg",
-    "static/media/crying.wav": "/remote-experience/static/media/crying.2f8ab1f2.wav",
     "static/media/crying.mp3": "/remote-experience/static/media/crying.dbb82882.mp3",
+    "static/media/crying.wav": "/remote-experience/static/media/crying.f2eaf4df.wav",
     "static/media/duck.91f550b0.svg": "/remote-experience/static/media/duck.91f550b0.svg",
     "static/media/eyelid.8f48498b.svg": "/remote-experience/static/media/eyelid.8f48498b.svg",
     "static/media/inaccessible-mouse-pointer.svg": "/remote-experience/static/media/inaccessible-mouse-pointer.a484729e.svg",
@@ -42,21 +42,21 @@
     "static/media/iris.caa56a2b.svg": "/remote-experience/static/media/iris.caa56a2b.svg",
     "static/media/typography.css": "/remote-experience/static/media/marlett.ffe58ece.ttf",
     "static/media/microphone-slash.4e8c4def.svg": "/remote-experience/static/media/microphone-slash.4e8c4def.svg",
+    "static/media/open.wav": "/remote-experience/static/media/open.a59ec3b8.wav",
     "static/media/open.mp3": "/remote-experience/static/media/open.d87e265c.mp3",
-    "static/media/open.wav": "/remote-experience/static/media/open.fbd281e6.wav",
     "static/media/plane.c5f766c0.svg": "/remote-experience/static/media/plane.c5f766c0.svg",
-    "static/media/tv-ambient.wav": "/remote-experience/static/media/tv-ambient.18b89a30.wav",
     "static/media/tv-ambient.mp3": "/remote-experience/static/media/tv-ambient.42c81102.mp3",
+    "static/media/tv-ambient.wav": "/remote-experience/static/media/tv-ambient.ad2ab7e7.wav",
+    "static/media/ufo-ambient.wav": "/remote-experience/static/media/ufo-ambient.3d189421.wav",
     "static/media/ufo-ambient.mp3": "/remote-experience/static/media/ufo-ambient.799f0094.mp3",
-    "static/media/ufo-ambient.wav": "/remote-experience/static/media/ufo-ambient.c9bf8722.wav",
     "static/media/zoombell.ogg": "/remote-experience/static/media/zoombell.0752b101.ogg",
     "static/media/zoombell.mp3": "/remote-experience/static/media/zoombell.24224a59.mp3",
-    "static/media/zoombell.wav": "/remote-experience/static/media/zoombell.39c092f4.wav"
+    "static/media/zoombell.wav": "/remote-experience/static/media/zoombell.ef82d6b6.wav"
   },
   "entrypoints": [
     "static/js/runtime-main.7d728162.js",
     "static/js/2.b4c31c08.chunk.js",
     "static/css/main.217272cd.chunk.css",
-    "static/js/main.ecaacc36.chunk.js"
+    "static/js/main.21f93a95.chunk.js"
   ]
 }
