@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/remote-experience/static/css/main.856335a8.chunk.css",
-    "main.js": "/remote-experience/static/js/main.90fa39c2.chunk.js",
-    "main.js.map": "/remote-experience/static/js/main.90fa39c2.chunk.js.map",
+    "main.css": "/remote-experience/static/css/main.217272cd.chunk.css",
+    "main.js": "/remote-experience/static/js/main.ecaacc36.chunk.js",
+    "main.js.map": "/remote-experience/static/js/main.ecaacc36.chunk.js.map",
     "runtime-main.js": "/remote-experience/static/js/runtime-main.7d728162.js",
     "runtime-main.js.map": "/remote-experience/static/js/runtime-main.7d728162.js.map",
-    "static/js/2.c78889e1.chunk.js": "/remote-experience/static/js/2.c78889e1.chunk.js",
-    "static/js/2.c78889e1.chunk.js.map": "/remote-experience/static/js/2.c78889e1.chunk.js.map",
+    "static/js/2.b4c31c08.chunk.js": "/remote-experience/static/js/2.b4c31c08.chunk.js",
+    "static/js/2.b4c31c08.chunk.js.map": "/remote-experience/static/js/2.b4c31c08.chunk.js.map",
     "index.html": "/remote-experience/index.html",
-    "precache-manifest.6cf5217d9cade2bd3690b6e01a8cba5a.js": "/remote-experience/precache-manifest.6cf5217d9cade2bd3690b6e01a8cba5a.js",
+    "precache-manifest.579ee1d055c31fa8d5a9bbecf554b386.js": "/remote-experience/precache-manifest.579ee1d055c31fa8d5a9bbecf554b386.js",
     "service-worker.js": "/remote-experience/service-worker.js",
-    "static/css/main.856335a8.chunk.css.map": "/remote-experience/static/css/main.856335a8.chunk.css.map",
-    "static/js/2.c78889e1.chunk.js.LICENSE.txt": "/remote-experience/static/js/2.c78889e1.chunk.js.LICENSE.txt",
+    "static/css/main.217272cd.chunk.css.map": "/remote-experience/static/css/main.217272cd.chunk.css.map",
+    "static/js/2.b4c31c08.chunk.js.LICENSE.txt": "/remote-experience/static/js/2.b4c31c08.chunk.js.LICENSE.txt",
     "static/media/Alert 1.m4a": "/remote-experience/static/media/Alert 1.4f61f23f.m4a",
     "static/media/Alert 2.m4a": "/remote-experience/static/media/Alert 2.0f43c6e3.m4a",
     "static/media/Alert 3.m4a": "/remote-experience/static/media/Alert 3.a410e8d7.m4a",
@@ -45,14 +45,18 @@
     "static/media/open.mp3": "/remote-experience/static/media/open.d87e265c.mp3",
     "static/media/open.wav": "/remote-experience/static/media/open.fbd281e6.wav",
     "static/media/plane.c5f766c0.svg": "/remote-experience/static/media/plane.c5f766c0.svg",
+    "static/media/tv-ambient.wav": "/remote-experience/static/media/tv-ambient.18b89a30.wav",
+    "static/media/tv-ambient.mp3": "/remote-experience/static/media/tv-ambient.42c81102.mp3",
+    "static/media/ufo-ambient.mp3": "/remote-experience/static/media/ufo-ambient.799f0094.mp3",
+    "static/media/ufo-ambient.wav": "/remote-experience/static/media/ufo-ambient.c9bf8722.wav",
     "static/media/zoombell.ogg": "/remote-experience/static/media/zoombell.0752b101.ogg",
     "static/media/zoombell.mp3": "/remote-experience/static/media/zoombell.24224a59.mp3",
     "static/media/zoombell.wav": "/remote-experience/static/media/zoombell.39c092f4.wav"
   },
   "entrypoints": [
     "static/js/runtime-main.7d728162.js",
-    "static/js/2.c78889e1.chunk.js",
-    "static/css/main.856335a8.chunk.css",
-    "static/js/main.90fa39c2.chunk.js"
+    "static/js/2.b4c31c08.chunk.js",
+    "static/css/main.217272cd.chunk.css",
+    "static/js/main.ecaacc36.chunk.js"
   ]
 }
