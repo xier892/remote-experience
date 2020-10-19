@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "124db55e317de794a7ba8d0cf944a2a1",
+    "revision": "8c4b39ad877a90199dad8195420f3467",
     "url": "/remote-experience/index.html"
   },
   {
-    "revision": "e352ab3a9307b2ba687b",
-    "url": "/remote-experience/static/css/main.0481ed7c.chunk.css"
+    "revision": "7cfc341e8cdb288dd6af",
+    "url": "/remote-experience/static/css/main.ada125d0.chunk.css"
   },
   {
-    "revision": "3d7f42020c596ea93c62",
-    "url": "/remote-experience/static/js/2.70e4aa0f.chunk.js"
+    "revision": "99165c05a9c3575bd60b",
+    "url": "/remote-experience/static/js/2.fc17efd6.chunk.js"
   },
   {
     "revision": "07e6b9a4d0f72bd616bee2a44adf91a9",
-    "url": "/remote-experience/static/js/2.70e4aa0f.chunk.js.LICENSE.txt"
+    "url": "/remote-experience/static/js/2.fc17efd6.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e352ab3a9307b2ba687b",
-    "url": "/remote-experience/static/js/main.7483c44c.chunk.js"
+    "revision": "7cfc341e8cdb288dd6af",
+    "url": "/remote-experience/static/js/main.92e94b73.chunk.js"
   },
   {
     "revision": "ae2d3174d6ce6547f02d",
@@ -100,6 +100,18 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/remote-experience/static/media/Expand.798133ca.m4a"
   },
   {
+    "revision": "c217bc9a3088ea2c81515bbe46dcefa8",
+    "url": "/remote-experience/static/media/Tab 1.c217bc9a.m4a"
+  },
+  {
+    "revision": "46782a7e7de2267e5210f6e31cc0ba25",
+    "url": "/remote-experience/static/media/Tab 2.46782a7e.m4a"
+  },
+  {
+    "revision": "e42fbe351848c6d90f12eb294bb060cc",
+    "url": "/remote-experience/static/media/Tab 3.e42fbe35.m4a"
+  },
+  {
     "revision": "64442a05dab61cb415a913f28683c730",
     "url": "/remote-experience/static/media/arrow-left.64442a05.svg"
   },
@@ -120,20 +132,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/remote-experience/static/media/duck.91f550b0.svg"
   },
   {
-    "revision": "8f48498bb8b80a905d02808daa34dc43",
-    "url": "/remote-experience/static/media/eyelid.8f48498b.svg"
+    "revision": "fb65291fbef2cfc1954c7dabe9c2a300",
+    "url": "/remote-experience/static/media/enableSharing.fb65291f.png"
   },
   {
     "revision": "a484729e19cbb1090b916d8a8c2fa85d",
     "url": "/remote-experience/static/media/inaccessible-mouse-pointer.a484729e.svg"
   },
   {
-    "revision": "6bcbbfdeadbdb7f14ae0c7994c2b8c5d",
-    "url": "/remote-experience/static/media/info-circle.6bcbbfde.svg"
-  },
-  {
-    "revision": "caa56a2bdd5f883c84fe93ab33996803",
-    "url": "/remote-experience/static/media/iris.caa56a2b.svg"
+    "revision": "fb1b5447f9233087956c3b41a9115d43",
+    "url": "/remote-experience/static/media/location.fb1b5447.svg"
   },
   {
     "revision": "4c608ead0af1b0ad0a21408c89e4b08a",
@@ -160,6 +168,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/remote-experience/static/media/microphone-slash.4e8c4def.svg"
   },
   {
+    "revision": "2e49559f24bfc033f7a66d1a369d9858",
+    "url": "/remote-experience/static/media/neosphere-ambient.2e49559f.wav"
+  },
+  {
+    "revision": "aa15b53c4dd6457136d23ee98b3a6716",
+    "url": "/remote-experience/static/media/neosphere-ambient.aa15b53c.mp3"
+  },
+  {
     "revision": "a59ec3b8544bf499b9ecbb32232bc38d",
     "url": "/remote-experience/static/media/open.a59ec3b8.wav"
   },
@@ -170,6 +186,42 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "c5f766c03b2bc751f8e8fa125162131b",
     "url": "/remote-experience/static/media/plane.c5f766c0.svg"
+  },
+  {
+    "revision": "0f739011f992a553eca6341d2488234c",
+    "url": "/remote-experience/static/media/poppins-latin-400.0f739011.woff2"
+  },
+  {
+    "revision": "70131db52482405c208927cc11b2322c",
+    "url": "/remote-experience/static/media/poppins-latin-400.70131db5.woff"
+  },
+  {
+    "revision": "e984294171acbaf00003af3915621e46",
+    "url": "/remote-experience/static/media/poppins-latin-500.e9842941.woff2"
+  },
+  {
+    "revision": "eaab31243d14e5e02cfb6ffabb8f1bb3",
+    "url": "/remote-experience/static/media/poppins-latin-500.eaab3124.woff"
+  },
+  {
+    "revision": "178ffc7be81fd0fa87c56ab2019e6a88",
+    "url": "/remote-experience/static/media/poppins-latin-600.178ffc7b.woff"
+  },
+  {
+    "revision": "b54e7266f2529c2aa7ac3cd8e2247381",
+    "url": "/remote-experience/static/media/poppins-latin-600.b54e7266.woff2"
+  },
+  {
+    "revision": "4677deb17bdaa503f8c09f81b013af31",
+    "url": "/remote-experience/static/media/prison.4677deb1.mp3"
+  },
+  {
+    "revision": "621119eb4a528a2d1e077809cabfb281",
+    "url": "/remote-experience/static/media/prison.621119eb.wav"
+  },
+  {
+    "revision": "4d6bd8113098f9fd9736da00eefc17ff",
+    "url": "/remote-experience/static/media/static.4d6bd811.mp3"
   },
   {
     "revision": "42c811021b1e9881efda328de9c181cb",
@@ -186,6 +238,18 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "7c42e320de32aacb6819bf0a29e43ff1",
     "url": "/remote-experience/static/media/ufo-ambient.7c42e320.wav"
+  },
+  {
+    "revision": "e6be472ea2046e0917d0b94e2e4ec42b",
+    "url": "/remote-experience/static/media/waiting-audio.e6be472e.svg"
+  },
+  {
+    "revision": "804b523ac6e52afcd2c05885d7f09f50",
+    "url": "/remote-experience/static/media/waiting-location.804b523a.svg"
+  },
+  {
+    "revision": "d6b0653ab0c3a3c07f54f9812159d978",
+    "url": "/remote-experience/static/media/waiting-video.d6b0653a.svg"
   },
   {
     "revision": "0752b101b73065c3ae0e47187cbb5db2",
