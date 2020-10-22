@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/remote-experience/static/css/main.e6d746e1.chunk.css",
-    "main.js": "/remote-experience/static/js/main.a65b2bd1.chunk.js",
-    "main.js.map": "/remote-experience/static/js/main.a65b2bd1.chunk.js.map",
+    "main.js": "/remote-experience/static/js/main.7f7470bd.chunk.js",
+    "main.js.map": "/remote-experience/static/js/main.7f7470bd.chunk.js.map",
     "runtime-main.js": "/remote-experience/static/js/runtime-main.7d728162.js",
     "runtime-main.js.map": "/remote-experience/static/js/runtime-main.7d728162.js.map",
-    "static/js/2.4a7b962b.chunk.js": "/remote-experience/static/js/2.4a7b962b.chunk.js",
-    "static/js/2.4a7b962b.chunk.js.map": "/remote-experience/static/js/2.4a7b962b.chunk.js.map",
+    "static/js/2.a7104c0f.chunk.js": "/remote-experience/static/js/2.a7104c0f.chunk.js",
+    "static/js/2.a7104c0f.chunk.js.map": "/remote-experience/static/js/2.a7104c0f.chunk.js.map",
     "index.html": "/remote-experience/index.html",
-    "precache-manifest.39ea9f3a23a022cd2212b5143440e441.js": "/remote-experience/precache-manifest.39ea9f3a23a022cd2212b5143440e441.js",
+    "precache-manifest.e5dfffcec2062912d09f651038f89109.js": "/remote-experience/precache-manifest.e5dfffcec2062912d09f651038f89109.js",
     "service-worker.js": "/remote-experience/service-worker.js",
     "static/css/main.e6d746e1.chunk.css.map": "/remote-experience/static/css/main.e6d746e1.chunk.css.map",
-    "static/js/2.4a7b962b.chunk.js.LICENSE.txt": "/remote-experience/static/js/2.4a7b962b.chunk.js.LICENSE.txt",
+    "static/js/2.a7104c0f.chunk.js.LICENSE.txt": "/remote-experience/static/js/2.a7104c0f.chunk.js.LICENSE.txt",
     "static/media/Alert 1.m4a": "/remote-experience/static/media/Alert 1.4f61f23f.m4a",
     "static/media/Alert 2.m4a": "/remote-experience/static/media/Alert 2.0f43c6e3.m4a",
     "static/media/Alert 3.m4a": "/remote-experience/static/media/Alert 3.a410e8d7.m4a",
@@ -55,6 +55,7 @@
     "static/media/duck.91f550b0.svg": "/remote-experience/static/media/duck.91f550b0.svg",
     "static/media/enableSharing.png": "/remote-experience/static/media/enableSharing.fb65291f.png",
     "static/media/inaccessible-mouse-pointer.svg": "/remote-experience/static/media/inaccessible-mouse-pointer.a484729e.svg",
+    "static/media/jazz-ambient.mp3": "/remote-experience/static/media/jazz-ambient.d9514898.mp3",
     "static/media/location.fb1b5447.svg": "/remote-experience/static/media/location.fb1b5447.svg",
     "static/media/typography.css": "/remote-experience/static/media/poppins-latin-600.b54e7266.woff2",
     "static/media/microphone-slash.4e8c4def.svg": "/remote-experience/static/media/microphone-slash.4e8c4def.svg",
@@ -79,8 +80,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.7d728162.js",
-    "static/js/2.4a7b962b.chunk.js",
+    "static/js/2.a7104c0f.chunk.js",
     "static/css/main.e6d746e1.chunk.css",
-    "static/js/main.a65b2bd1.chunk.js"
+    "static/js/main.7f7470bd.chunk.js"
   ]
 }
