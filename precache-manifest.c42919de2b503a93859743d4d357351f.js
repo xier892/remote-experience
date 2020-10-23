@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "88d529765381756561455b69c0cc4d81",
+    "revision": "7cb14529d0a2e401393b48af5178ff82",
     "url": "/remote-experience/index.html"
   },
   {
-    "revision": "c536f469549d6e7bf691",
-    "url": "/remote-experience/static/css/main.e6d746e1.chunk.css"
+    "revision": "3c960f9d4f9588cc9ebc",
+    "url": "/remote-experience/static/css/main.15769422.chunk.css"
   },
   {
-    "revision": "1a2657bcf597c41698a9",
-    "url": "/remote-experience/static/js/2.66e27837.chunk.js"
+    "revision": "db5290fc5fa3e8a31875",
+    "url": "/remote-experience/static/js/2.4b77bb94.chunk.js"
   },
   {
     "revision": "07e6b9a4d0f72bd616bee2a44adf91a9",
-    "url": "/remote-experience/static/js/2.66e27837.chunk.js.LICENSE.txt"
+    "url": "/remote-experience/static/js/2.4b77bb94.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c536f469549d6e7bf691",
-    "url": "/remote-experience/static/js/main.e0f4809c.chunk.js"
+    "revision": "3c960f9d4f9588cc9ebc",
+    "url": "/remote-experience/static/js/main.0bfde520.chunk.js"
   },
   {
     "revision": "ae2d3174d6ce6547f02d",
@@ -282,6 +282,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "4d6bd8113098f9fd9736da00eefc17ff",
     "url": "/remote-experience/static/media/static.4d6bd811.mp3"
+  },
+  {
+    "revision": "679ce33600cbae072e92a41be2b46bd5",
+    "url": "/remote-experience/static/media/surveillance-ambient.679ce336.mp3"
   },
   {
     "revision": "42c811021b1e9881efda328de9c181cb",
