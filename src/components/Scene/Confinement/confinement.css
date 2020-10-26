@@ -1,0 +1,216 @@
+.confinement .videoframe {
+  width: 100%;
+}
+
+.breakoutDialog {
+  color: #fff;
+  border-radius: 8px;
+  border-width: 2px;
+  border-style: solid;
+  width: 65.79%;
+  max-width: 708px;
+  padding: 8px 16px 28px 16px;
+  text-align: center;
+  opacity: 0;
+  transform: scale(0.6) translateY(100vh);
+  transition: transform 0.64s cubic-bezier(0.68,-0.55,0.27,1.55), opacity 0.64s cubic-bezier(0.77,0,0.18,1);
+  z-index: 1;
+  position: absolute;
+  box-shadow: 0 1px 2px -12px rgba(0,0,0,0.1),
+              0 2px 4px -12px rgba(0,0,0,0.1),
+              0 4px 8px -12px rgba(0,0,0,0.1),
+              0 8px 16px -12px rgba(0,0,0,0.1),
+              0 16px 32px -12px rgba(0,0,0,0.12),
+              0 32px 64px -12px rgba(0,0,0,0.12),
+              0 64px 128px -12px rgba(0,0,0,0.12);
+}
+
+.breakoutDialog.visible {
+  opacity: 1;
+  transform: none;
+  transition-timing-function: cubic-bezier(0.65,0.05,0.36,1);
+  transition-duration: 0.5s;
+}
+
+.breakoutDialogHeader {
+  width: 100%;
+  position: relative;
+}
+
+.breakoutDialogHeaderDecorContainer {
+  display: flex;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  align-items: center;
+}
+
+.breakoutDialogHeaderDecor {
+  width: 16px;
+  height: 16px;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 50%;
+}
+
+.breakoutDialogHeaderDecor:first-of-type {
+  margin: 0 8px 0 0;
+}
+
+.breakoutDialogHeaderDecor:last-of-type {
+  margin: 0 0 0 8px;
+}
+
+.breakoutDialogBody {
+  margin: 44px 0;
+}
+
+.breakoutDialogBody p {
+  margin-bottom: 1em;
+}
+
+.breakoutInputGroup {
+  white-space: normal;
+}
+
+/* COLORS */
+
+.breakoutDialog.antarctica {
+  background-color: #1E324B;
+  border-color: #465870;
+}
+.antarctica .breakoutDialogHeader {
+  color: #859EBF;
+}
+.antarctica .breakoutDialogHeaderDecor {
+  border-color: #465870;
+}
+.antarctica .breakoutButton {
+  background-color: #0C7A6B;
+}
+.antarctica .breakoutButton:hover:enabled:not(:active) {
+  background-color: #0d8e7c;
+}
+.antarctica .radioControl::after {
+  background-color: #6795D1;
+}
+
+.breakoutDialog.mars {
+  background-color: #432B20;
+  border-color: #6E4133;
+}
+.mars .breakoutDialogHeader {
+  color: #ca8a5a;
+}
+.mars .breakoutDialogHeaderDecor {
+  border-color: #6E4133;
+}
+.mars .breakoutButton {
+  background-color: #AA4619;
+}
+.mars .breakoutButton:hover:enabled:not(:active) {
+  background-color: #c15220;
+}
+.mars .radioControl::after {
+  background-color: #FBDD7D;
+}
+
+.breakoutDialog.closet {
+  background-color: #1B1C20;
+  border-color: rgba(255, 255, 255, 0.13);
+}
+.closet .breakoutDialogHeader {
+  color: rgba(255, 255, 255, 0.4);
+}
+.closet .breakoutDialogHeaderDecor {
+  border-color: rgba(255, 255, 255, 0.13);
+}
+.closet .breakoutButton {
+  background-color: #9E2C2C;
+}
+.closet .breakoutButton:hover:enabled:not(:active) {
+  background-color: #bf2e2e;
+}
+.closet .radioControl::after {
+  background-color: #ABABAB;
+}
+
+.breakoutDialog.shadow {
+  background-color: #000;
+  border-color: #4F029D;
+}
+.shadow .breakoutDialogHeader {
+  color: red;
+}
+.shadow .breakoutDialogHeaderDecor {
+  border-color: #4F029D;
+}
+.shadow .breakoutButton {
+  background-color: red;
+  color: #EEFF00;
+  font-family: serif;
+  font-size: 1.26em;
+}
+.shadow .breakoutButton:hover {
+  animation: vibrate-3 0.4s linear infinite both;
+}
+.shadow .breakoutButton:hover:enabled:not(:active) {
+  background-color: red;
+}
+.shadow .radio {
+  background-color: rgba(0, 66, 249, 0.25);
+}
+.shadow .radio:hover {
+  background-color: rgba(0, 66, 249, 0.4);
+}
+.shadow .radioControl::after {
+  background-color: #FF00B2;
+}
+
+@keyframes vibrate-3 {
+  0% {
+    -webkit-transform: translate(0);
+            transform: translate(0);
+  }
+  10% {
+    -webkit-transform: translate(-2px, -2px);
+            transform: translate(-2px, -2px);
+  }
+  20% {
+    -webkit-transform: translate(2px, -2px);
+            transform: translate(2px, -2px);
+  }
+  30% {
+    -webkit-transform: translate(-2px, 2px);
+            transform: translate(-2px, 2px);
+  }
+  40% {
+    -webkit-transform: translate(2px, 2px);
+            transform: translate(2px, 2px);
+  }
+  50% {
+    -webkit-transform: translate(-2px, -2px);
+            transform: translate(-2px, -2px);
+  }
+  60% {
+    -webkit-transform: translate(2px, -2px);
+            transform: translate(2px, -2px);
+  }
+  70% {
+    -webkit-transform: translate(-2px, 2px);
+            transform: translate(-2px, 2px);
+  }
+  80% {
+    -webkit-transform: translate(-2px, -2px);
+            transform: translate(-2px, -2px);
+  }
+  90% {
+    -webkit-transform: translate(2px, -2px);
+            transform: translate(2px, -2px);
+  }
+  100% {
+    -webkit-transform: translate(0);
+            transform: translate(0);
+  }
+}

@@ -1,0 +1,12 @@
+.scene.surveillance {
+  background-color: #17684D;
+}
+
+.videogrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  width: 100%;
+}

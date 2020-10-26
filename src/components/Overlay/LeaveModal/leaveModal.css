@@ -1,0 +1,54 @@
+.leaveModal {
+  display: flex;
+  flex-flow: column;
+  background-color: rgba(0, 0, 0, 0.6);
+  transform-origin: 100% 100%;
+  position: absolute;
+  bottom: 100%;
+  right: 0;
+  padding: 1em;
+  margin: 16px;
+  animation: 0.4s bounceIn backwards;
+  border-radius: 8px;
+  pointer-events: auto;
+  min-width: 15em;
+  backdrop-filter: blur(0.5em);
+  box-shadow: 0 1px 2px -12px rgba(0,0,0,0.1),
+              0 2px 4px -12px rgba(0,0,0,0.1),
+              0 4px 8px -12px rgba(0,0,0,0.1),
+              0 8px 16px -12px rgba(0,0,0,0.1),
+              0 16px 32px -12px rgba(0,0,0,0.12),
+              0 32px 64px -12px rgba(0,0,0,0.12);
+}
+
+.leaveModal button {
+  width: 100%;
+}
+
+.leaveModal .leaveButton {
+  animation: none;
+  animation-delay: 0;
+  /* margin: auto auto 8px auto; */
+}
+
+.cancelButton {
+  min-height: 48px;
+  color: #fff;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  position: relative;
+  padding: 12px 40px;
+  font-size: 1em;
+  font-family: inherit;
+  cursor: pointer;
+  transition: transform 0.1s cubic-bezier(0.65,0.05,0.36,1);
+}
+
+.cancelButton:enabled:hover {
+  background-color: rgba(255, 255, 255, 0.18);
+}
+
+.cancelButton:enabled:active {
+  background-color: rgba(255, 255, 255, 0.22);
+  transform: translateY(3px);
+}

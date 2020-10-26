@@ -1,0 +1,94 @@
+.info {
+  display: flex;
+  flex-flow: column;
+  position: fixed;
+  justify-content: space-between;
+  width: 75%;
+  max-width: 26.65em;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.97);
+  box-shadow: 0 1px 2px -12px rgba(0,0,0,0.1),
+              0 2px 4px -12px rgba(0,0,0,0.1),
+              0 4px 8px -12px rgba(0,0,0,0.1),
+              0 8px 16px -12px rgba(0,0,0,0.1),
+              0 16px 32px -12px rgba(0,0,0,0.12),
+              0 32px 64px -12px rgba(0,0,0,0.12);
+  transform: translateX(-110%);
+  transition: transform 0.6s cubic-bezier(0.17,0.84,0.44,1);
+  z-index: 1;
+  pointer-events: all;
+}
+
+.info.visible {
+  transform: none;
+  transition-delay: 0.1s;
+}
+
+.infoContainer {
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+  padding: 9.5% 10.5% 30% 10.5%;
+  transform: translate3d(0, 0, 0);
+  word-break: break-word;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  -webkit-overflow-scrolling: touch;
+}
+
+.info::after {
+  content: '';
+  position: absolute;
+  top: 85%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(0deg, rgba(255,255,255,0.9) 0%, rgba(255,255,255,0) 100%);
+  pointer-events: none;
+}
+
+.infoContainer h1 {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+  padding-bottom: 0.45em;
+  line-height: 1.35;
+}
+
+.infoContainer p {
+  font-size: 0.9em;
+}
+
+.infoContainer .text-block {
+  margin-bottom: 1.7em;
+  animation: react-placeholder-pulse 1.5s infinite;
+}
+
+.info .dismissButton {
+  flex: 1 0 auto;
+  position: absolute;
+  bottom: 4.5%;
+  left: 10.5%;
+  right: 10.5%;
+  width: 79%;
+  z-index: 1;
+}
+
+.blackoutInfo .dismissButton {
+  background-color: #354050;
+  color: rgba(0, 0, 0, 0);
+}
+
+.blackoutInfo .dismissButton:hover:enabled:not(:active) {
+  background-color: #455161;
+}
+
+@keyframes react-placeholder-pulse {
+  0% {
+    opacity: .6;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: .6;
+  }
+}

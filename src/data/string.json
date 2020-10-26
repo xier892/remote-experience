@@ -1,0 +1,87 @@
+{
+  "index": {
+    "title": "The Remote Experience",
+    "body": [
+      "Welcome to the Remote Experience. This is an interactive site dedicated to your favorite aspects of remote conferencing, because you love being here and your presence is valuable.",
+      "You may be prompted for permission to use your microphone and camera. It is recommended that you turn on your sound and enable access to these devices for the full experience.",
+      "To continue, click on that “Join with Computer Audio” button. You know the drill."
+    ]
+  },
+
+  "entry": {
+    "title": "Limbo",
+    "body": [
+      "Welcome to the Remote Experience. This is an interactive site dedicated to your favorite aspects of remote conferencing, because you love being here and your presence is valuable.",
+      "You are in Limbo, the waiting room in which you idle in front of a drab, white screen until you are admitted.",
+      "Whether you are restlessly waiting for a late host or catching ten minutes of sleep before the meeting begins, the room is dead quiet. This little window of time has been granted to you to exercise your talent for doing nothing. Feel free to relish this moment for as long as you’d like.",
+      "When you are ready, click on the “Next” button on the bottom bar to proceed."
+    ]
+  },
+
+  "surveillance": {
+    "title": "Surveillance",
+    "body": [
+      "All participants, arranged in a grid, constantly facing in your direction, as if they were having their mugshots taken.",
+      "You do the same because it is what your company or school mandates.",
+      "The little indicator dot of your webcam beams up, and then you see yourself among the others. Something is off, however—your face, to be exact. All those little flaws your bathroom mirror has been showing you are, in actuality, monstrosities on the screen. Was this always how you looked? Perhaps your webcam is messing up your image, but the plastic surgery business wouldn’t be booming right now if upgrading your hardware had the same effect.",
+      "Regardless, everyone can see, and everyone is staring. Though they are probably looking at something else, it is hard to tell when the only direction they ever face is forward."
+    ]
+  },
+
+  "marginalia": {
+    "title": "Marginalia",
+    "body": [
+      "Text is free. A writer may attempt to enrapture and control you with prose and poetry, but it is ultimately your choice as regards how it is consumed.",
+      "Text is accessible. For those with hearing impairments or those who simply lost focus for a second, text does not need to be heard. Text can be read and re-read until it is sufficiently grasped. Text can be searched. Text does not need to be rewinded, nor does it need to be awkwardly manipulated with a seek.",
+      "Text is forgiving. Typing or writing lets you focus on the construction of the message; it does not inherit your body language, your inflections, nor the loud background noises in your residence. You may have heard others say that the lack of audiovisual cues makes it difficult to detect certain subtleties like sarcasm, but enough exposure to this medium will make it easy to pick up on such undertones.",
+      "The ability to send and receive these sorts of messages instantly is one made available thanks to the great inventions of humankind. In a second, text can travel miles to appear on the screens of your recipients.",
+      "What we need, now, is another invention that gives people the ability to toggle and read the chat window."
+    ]
+  },
+
+  "discord": {
+    "title": "Discord",
+    "body": [
+      "You wonder which of the two is more pointless: those buttons on the poles of traffic signals or the button to raise your “hand.” At the very least, the former offers tactility and hope. The futility of the latter is realized immediately.",
+      "To add to the chaos, everyone calling in from their own spaces means they bring their junk with them. A noisy child. Parents imminently divorcing. Construction workers. A dog barks, and all the dog fanatics go awwwwwwwwwwwwitsadoggowhatsitsnamejfo;reijagr;igj24i;foejfo;gfio;j.",
+      "But you can forgive them all for being in situations beyond their control. The one you really hate is the one too invested in their phone call to pay attention to everyone telling them to mute themselves.",
+      "You are either unable to mute other participants or ten minutes into trying to teach someone how to do so."
+    ]
+  },
+
+  "grima": {
+    "title": "Grima",
+    "body": [
+      "Whether it is nails scratching a chalkboard or a dental drill boring into a tooth, there are certain sounds that can irritate you both psychologically and physiologically.",
+      "Introducing:",
+      "Feedback from a broken microphone",
+      "Your own voice, echoing from the speakers of someone else"
+    ]
+  },
+
+  "inaccessibility": {
+    "title": "Inaccessibility",
+    "body": [
+      "Why can’t dad unmute himself?",
+      "Imagine if every symbol in the world were replaced with either an airplane or a banana. The audio toggle can be an airplane, because sound travels, and so do airplanes. The banana is no arbitrary symbol; it is an important cultural artifact used to communicate the scale of physical objects through screens, and so it shall represent all screen-based functions, such as the video toggle. You will undoubtedly learn to navigate such a ludicrous interface in time, but it probably will take a while for these associations to be ingrained as instinct.",
+      "Why can’t kids unmute themselves?",
+      "Likely because pressing a button on the corner before talking isn’t a habit most people are born with.",
+      "And then there are those who would rather talk before thinking, the type with which you are most familiar. You might find some amusement in seeing their lips flapping about in silence."
+    ]
+  },
+
+  "confinement": {
+    "title": "Confinement",
+    "body": [
+      "Suddenly, everything is dark, and everyone is gone.",
+      "If our consciousnesses are uploaded to the Internet in the far future, is this what cyberprison would be like? Imagine how it would feel to actually be ‟inside” here as one of those rectangles, trapped in what you can only perceive as eternal blackness.",
+      "But we were not sent here to be unnecessarily dramatic. We have to do our thing, and then wait until we can regroup with everyone.",
+      "Except you may have already forgotten what we were assigned to do. The brain is great at failing when it is most needed, after all. You can try going back and asking, but there is no telling if someone will be there to invite you back here once you leave. How about taking a nap until you are summoned back?"
+    ]
+  },
+
+  "blackout": {
+    "title": "Blackout",
+    "body": [""]
+  }
+}

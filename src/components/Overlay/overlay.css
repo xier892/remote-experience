@@ -1,0 +1,220 @@
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  transition: opacity 3s cubic-bezier(0.65,0.05,0.36,1);
+  pointer-events: none;
+}
+
+.vignette {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background: radial-gradient(circle, transparent 50%, rgba(0, 0, 0, 0.16) 150%);
+  pointer-events: none;
+  /* animation: fadeIn 1s cubic-bezier(0.65,0.05,0.36,1); */
+}
+
+.vignette::before {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(circle, rgba(0, 0, 0, 0.15) 50%, rgba(0, 0, 0, 0.30) 150%);
+  transition: opacity 0.64s cubic-bezier(0.79,0.14,0.15,0.86);
+  opacity: 0;
+  backdrop-filter: blur(0.5em) sepia(0.6);
+}
+
+.vignette.dim {
+  pointer-events: auto;
+}
+
+.vignette.dim::before {
+  opacity: 1;
+}
+
+.bar {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  min-height: 80px;
+  background-color: rgba(16, 19, 23, 0.7);
+  box-shadow: 0 -1px 2px -12px rgba(0,0,0,0.1),
+              0 -2px 4px -12px rgba(0,0,0,0.1),
+              0 -4px 8px -12px rgba(0,0,0,0.1),
+              0 -8px 16px -12px rgba(0,0,0,0.1),
+              0 -16px 32px -12px rgba(0,0,0,0.12),
+              0 -32px 64px -12px rgba(0,0,0,0.12);
+  color: #fff;
+  pointer-events: auto;
+  animation: slide-in-bottom 1s cubic-bezier(0.22,0.61,0.36,1) both;
+}
+
+.barDisabled .bar {
+  display: none;
+}
+
+.bar .progressContainer {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  top: -8px;
+  background-color: rgba(0, 0, 0, 0.32);
+}
+
+.bar .progress {
+  transform-origin: left center;
+  background-color: #fffad6;
+  transition: transform 0.64s cubic-bezier(0.77,0,0.18,1);
+  width: 100%;
+  height: 45%;
+}
+
+.bar .buttonGroup {
+  display: flex;
+  position: absolute;
+  width: 100%;
+  justify-content: center;
+}
+
+.barButton {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 48px;
+  background: transparent;
+  color: rgba(255, 255, 255, 0.8);
+  border-radius: 8px;
+  position: relative;
+  padding: 8px 24px;
+  margin: 0 16px;
+  font-size: 0.7em;
+  font-family: inherit;
+  cursor: pointer;
+  transition: transform 0.1s cubic-bezier(0.65,0.05,0.36,1);
+}
+
+.barButton:enabled:hover {
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.barButton:enabled:active {
+  transform: translateY(2px);
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.barButton[name='info'] {
+  margin-right: auto;
+  position: relative;
+}
+
+.barButton svg {
+  opacity: 0.8;
+  margin-bottom: 8px;
+  transition: transform 0.64s cubic-bezier(0.77,0,0.18,1);
+}
+
+.barButton[name='info'] svg {
+  opacity: 0.9;
+}
+
+.barButton:enabled:hover svg {
+  opacity: 1;
+}
+
+.leaveButton {
+  background-color: #9E2C2C;
+  margin: 0 16px;
+  margin-left: auto;
+  font-size: 0.9em;
+  animation: fadeInButton 0.4s cubic-bezier(0.65,0.05,0.36,1) backwards;
+  animation-delay: 2s;
+}
+
+.leaveButton:hover:enabled:not(:active) {
+  background-color: #bf2e2e;
+}
+
+.leaveButton.cancel {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.leaveButton.cancel:hover:enabled {
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+.inaccessible .barButton {
+  color: rgba(0, 0, 0, 0);
+}
+
+.inaccessible .barButton[name='previous'] svg,
+.inaccessible .barButton[name='next'] svg {
+  transform: rotate(180deg);
+}
+
+.inaccessible .leaveButton,
+.inaccessible .leaveButton:enabled:hover {
+  background: transparent;
+  transform: none;
+  box-shadow: none;
+  color: #bf2e2e;
+}
+
+.leaveButton.breakoutButton {
+  background-color: #3582E8;
+}
+
+.leaveButton.breakoutButton:hover:enabled:not(:active) {
+  background-color: #3595e8;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInButton {
+  0% {
+    opacity: 0;
+    pointer-events: none;
+  }
+  100% {
+    opacity: 1;
+    pointer-events: auto;
+  }
+}
+
+@keyframes slide-in-bottom {
+  0% {
+    -webkit-transform: translateY(1000px);
+            transform: translateY(1000px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
+@keyframes pulsate-bck {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0.1);
+  }
+}

@@ -1,0 +1,72 @@
+body {
+  line-height: 1.6;
+}
+
+p:not(:last-of-type) {
+  margin-bottom: 1em;
+}
+
+.textSmall {
+  font-size: 0.9em;
+}
+
+.textMedium {
+  font-weight: 500;
+}
+
+.textSemibold {
+  font-weight: 600;
+}
+
+.textScrambled {
+  font-family: 'Marlett';
+  text-transform: lowercase;
+}
+
+.textHeading {
+  font-size: 2em;
+  margin-bottom: 0.9em;
+  color: #354050;
+}
+
+@font-face {
+  font-family: 'Marlett';
+  src: url('./fonts/marlett.eot');
+  src: url('./fonts/marlett.eot?#iefix') format('embedded-opentype'),
+       url('./fonts/marlett.woff2') format('woff2'),
+       url('./fonts/marlett.woff') format('woff'),
+       url('./fonts/marlett.ttf') format('truetype'),
+       url('./fonts/marlett.svg#marlettregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src:
+    url('./fonts/poppins-latin-400.woff2') format('woff2'),
+    url('./fonts/poppins-latin-400.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 500;
+  src:
+    url('./fonts/poppins-latin-500.woff2') format('woff2'),
+    url('./fonts/poppins-latin-500.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 600;
+  src:
+    url('./fonts/poppins-latin-600.woff2') format('woff2'),
+    url('./fonts/poppins-latin-600.woff') format('woff');
+}

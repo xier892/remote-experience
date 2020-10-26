@@ -1,0 +1,155 @@
+.eyeball {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  animation: appearEye 0.3s cubic-bezier(0.65,0.05,0.36,1) forwards;
+  contain: content;
+}
+
+.eyeflap {
+  background-color: #10493A;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  position: absolute;
+  animation: openEye 0.15s cubic-bezier(0.65,0.05,0.36,1) forwards;
+}
+
+.eyelid {
+  position: absolute;
+  width: 100%;
+  transform: scaleY(0.05);
+  transform-origin: 50% 50%;
+  transition: transform 0.4s cubic-bezier(0.65,0.05,0.36,1);
+}
+
+.eyelid.initiated {
+  transform: scaleY(1);
+}
+
+.scene.visible .eyelid.opened {
+  animation: blink 2.3s infinite;
+}
+
+.topLid, .bottomLid {
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+.topLid {
+  top: -1000%;
+  bottom: 90%;
+}
+
+.bottomLid {
+  top: 90%;
+  bottom: -1000%;
+}
+
+.iris {
+  position: absolute;
+  width: 23%;
+}
+
+.scene.visible .iris.opened {
+  animation: squeeze 2.3s infinite;
+}
+
+.irisContainer {
+  width: 100%;
+  height: 100%;
+}
+
+.irisController {
+  width: 100%;
+  height: 100%;
+}
+
+.sclera {
+  height: 80%;
+  width: 90%;
+  border-radius: 50%;
+  opacity: 0.5;
+  transition: opacity 0.2s cubic-bezier(0.65,0.05,0.36,1);
+}
+
+.sclera.initiated {
+  opacity: 1;
+}
+
+.scene.visible .sclera.opened {
+  animation: sclera 2.3s infinite;
+}
+
+@keyframes appearEye {
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes openEye {
+  90% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes blink {
+  90% {
+    transform: none;
+    animation-timing-function: ease-in;
+  }
+  93% {
+    transform: translateY(30px) scaleY(0.05);
+  }
+  100% {
+    animation-timing-function: ease-out;
+  }
+}
+
+@keyframes squeeze {
+  90% {
+    transform: none;
+    animation-timing-function: ease-in;
+  }
+  92% {
+    opacity: 1;
+  }
+  93% {
+    opacity: 0;
+    transform: translateY(3px) scaleY(0.8);
+  }
+  94% {
+    opacity: 1;
+  }
+  100% {
+    animation-timing-function: ease-out;
+  }
+}
+
+@keyframes sclera {
+  90% {
+    animation-timing-function: ease-in;
+  }
+  92% {
+    opacity: 1;
+  }
+  93% {
+    opacity: 0;
+  }
+  94% {
+    opacity: 1;
+  }
+  100% {
+    animation-timing-function: ease-out;
+  }
+}

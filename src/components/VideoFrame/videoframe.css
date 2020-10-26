@@ -1,0 +1,55 @@
+.videoframe {
+  background-color: #10493A;
+  border-radius: 8px;
+  width: auto;
+  height: 0;
+  padding-bottom: 56.25%;
+  position: relative;
+  transform: scale(0);
+  animation: 0.4s bounceIn forwards;
+  overflow: hidden;
+}
+
+.videoframe.antarctica {
+  background-color: #0E1824;
+}
+
+.videoframe.mars {
+  background-color: #1E1615;
+}
+
+.videoframe.closet {
+  background-color: #000;
+}
+
+.videoframe.shadow {
+  background-color: #011004;
+}
+
+.videoframeContainer {
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+@keyframes bounceIn {
+   0% {
+     opacity: 0;
+     transform: scale(.3);
+   }
+   50% {
+     transform: scale(1.05);
+   }
+   70% {
+     opacity: 1;
+     transform: scale(.9);
+   }
+   100% {
+     transform: scale(1);
+   }
+}

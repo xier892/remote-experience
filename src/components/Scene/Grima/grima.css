@@ -1,0 +1,17 @@
+.scene.grima {
+  background-color: #F5EF4F;
+}
+
+.scene.grima::before {
+  content: 'The Echo';
+  color: #0033FF;
+}
+
+.scene.grima::after {
+  border-color: #0033FF;
+}
+
+.grima .pts-react, .grima canvas {
+  width: 100%;
+  height: 100%;
+}

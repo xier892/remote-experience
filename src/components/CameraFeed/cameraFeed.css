@@ -1,0 +1,65 @@
+.cameraFeed {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  width: 4.5em;
+  height: 4.5em;
+  overflow: hidden;
+  position: fixed;
+  top: 1.5em;
+  left: 1.5em;
+  opacity: 0;
+  transform: scale3d(0);
+  border: 4px solid #fff;
+  transition: opacity 0.64s cubic-bezier(0.68,-0.55,0.27,1.55);
+  box-shadow: 0 1px 1px -8px rgba(0,0,0,0.11),
+              0 2px 2px -8px rgba(0,0,0,0.11),
+              0 4px 4px -8px rgba(0,0,0,0.11),
+              0 8px 8px -8px rgba(0,0,0,0.11),
+              0 16px 16px -8px rgba(0,0,0,0.11);
+}
+
+.cameraFeed.active {
+  opacity: 1;
+  transform: none;
+  will-change: transform;
+}
+
+.cameraFeed.noPointer {
+  display: none;
+}
+
+.cameraFeed > video {
+  width: auto;
+  height: 100%;
+  transition: opacity 0.64s cubic-bezier(0.68,-0.55,0.27,1.55);
+}
+
+.cameraFeed.error {
+  animation: flicker-1 2s linear infinite both;
+}
+
+.cameraFeed.error::after {
+  content: 'ERR_CONNECTION_REFUSED error';
+  word-break: break-all;
+  display: flex;
+  position: absolute;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 0.5em;
+  font-family: 'Marlett';
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #C0C0C0;
+  color: #9E2C2C;
+  animation: fadeIn 0.4s step-end backwards;
+  animation-delay: 0.5s;
+}
+
+.cameraFeed.error > video {
+  opacity: 0;
+  transition-timing-function: step-end;
+}

@@ -1,0 +1,84 @@
+.scene.inaccessibility {
+  background-color: #D6DBC7;
+}
+
+.muteIconBounds {
+  position: absolute;
+  top: calc(0.8em + var(--top-padding));
+  left: 0.8em;
+  right: 0.8em;
+  bottom: calc(0.8em + var(--bottom-padding));
+}
+
+.muteIconContainer {
+  width: 64px;
+  height: 64px;
+  padding: 12px;
+  transition: transform 0.6s cubic-bezier(0.08,0.82,0.17,1);
+}
+
+.scene.visible .muteIconContainer {
+  will-change: transform;
+}
+
+.blabber {
+  text-align: center;
+  width: 66.1%;
+  height: auto;
+}
+
+.scene.visible .blabber {
+  animation: headTilt 750ms infinite;
+}
+
+.blabber div {
+  background-color: #949A86;
+}
+
+.blabber .eye {
+  width: 15%;
+  height: 0;
+  padding-bottom: 15%;
+  margin: 0 15% 12.5% 15%;
+  border-radius: 100%;
+  display: inline-block;
+}
+
+.blabber .mouth {
+  display: inline-block;
+  width: 100%;
+  height: 0;
+  padding-bottom: 15%;
+  margin-top: 5%;
+  transform-origin: center top;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+}
+
+.scene.visible .mouth {
+  animation: mouthSize 250ms infinite;
+}
+
+@keyframes headTilt {
+  from, to {
+    transform: rotate(10deg);
+  }
+
+  50% {
+    transform: rotate(-10deg);
+  }
+}
+
+@keyframes mouthSize {
+  0% {
+    transform: scaleY(0.1)
+  }
+
+  50% {
+    transform: scaleY(1)
+  }
+
+  100% {
+    transform: scaleY(0.1)
+  }
+}
