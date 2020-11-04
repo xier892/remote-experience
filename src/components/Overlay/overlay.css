@@ -94,6 +94,7 @@
   min-height: 48px;
   background: transparent;
   color: rgba(255, 255, 255, 0.8);
+  letter-spacing: 0.02em;
   border-radius: 8px;
   position: relative;
   padding: 8px 24px;
@@ -119,17 +120,32 @@
   position: relative;
 }
 
-.barButton svg {
+.barButton .svgContainer {
   opacity: 0.8;
   margin-bottom: 8px;
   transition: transform 0.64s cubic-bezier(0.77,0,0.18,1);
+  position: relative;
 }
 
-.barButton[name='info'] svg {
-  opacity: 0.9;
+.barButton.unread > span {
+  color: rgba(255, 255, 255, 1);
 }
 
-.barButton:enabled:hover svg {
+.barButton.unread .svgContainer {
+  opacity: 1;
+}
+
+.barButton.unread::after {
+  position: absolute;
+  content: '';
+  width: 8px;
+  height: 8px;
+  bottom: -6px;
+  background-color: #fff;
+  border-radius: 50%;
+}
+
+.barButton:enabled:hover .svgContainer {
   opacity: 1;
 }
 

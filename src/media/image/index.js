@@ -1,5 +1,9 @@
 import React from 'react';
 
+function Location({ fill = '#94f24d', fillOpacity = 1 }) {
+  return (<svg xmlns="http://www.w3.org/2000/svg" width="19.6" height="28" viewBox="0 0 19.6 28"><path d="M14.8,2A9.793,9.793,0,0,0,5,11.8C5,19.15,14.8,30,14.8,30s9.8-10.85,9.8-18.2A9.793,9.793,0,0,0,14.8,2Zm0,13.3a3.5,3.5,0,1,1,3.5-3.5A3.5,3.5,0,0,1,14.8,15.3Z" transform="translate(-5 -2)" fill={fill} fillOpacity={fillOpacity}/></svg>)
+}
+
 function Microphone({ fill = '#224e11', fillOpacity = 1 }) {
   return (<svg xmlns="http://www.w3.org/2000/svg" width="13.75" height="20" viewBox="0 0 13.75 20"><path d="M6.875,13.75A3.75,3.75,0,0,0,10.625,10V3.75a3.75,3.75,0,0,0-7.5,0V10A3.75,3.75,0,0,0,6.875,13.75Zm6.25-6.25H12.5a.625.625,0,0,0-.625.625V10a5.006,5.006,0,0,1-5.5,4.976,5.152,5.152,0,0,1-4.5-5.2V8.125A.625.625,0,0,0,1.25,7.5H.625A.625.625,0,0,0,0,8.125V9.694a7.09,7.09,0,0,0,5.938,7.1v1.334H3.75a.625.625,0,0,0-.625.625v.625A.625.625,0,0,0,3.75,20H10a.625.625,0,0,0,.625-.625V18.75A.625.625,0,0,0,10,18.125H7.813V16.806A6.882,6.882,0,0,0,13.75,10V8.125A.625.625,0,0,0,13.125,7.5Z" fill={fill} fillOpacity={fillOpacity}/></svg>);
 }
@@ -16,4 +20,4 @@ function VideoSlash({ fill = '#fff', fillOpacity = 1 }) {
   return (<svg xmlns="http://www.w3.org/2000/svg" width="24.999" height="19.998" viewBox="0 0 24.999 19.998"><path d="M24.758,17.895l-2.148-1.66A1.231,1.231,0,0,0,23.75,15.02V4.98a1.252,1.252,0,0,0-1.969-1.008L17.5,6.926v5.359l-1.25-.965V4.367A1.867,1.867,0,0,0,14.383,2.5H4.84L1.777.133A.627.627,0,0,0,.9.242l-.766.984A.622.622,0,0,0,.242,2.1L1.668,3.2,16.25,14.477l6.973,5.391a.627.627,0,0,0,.879-.109l.766-.988A.619.619,0,0,0,24.758,17.895ZM1.25,15.633A1.867,1.867,0,0,0,3.117,17.5H14.383a1.853,1.853,0,0,0,1.156-.41L1.25,6.043Z" transform="translate(-0.001 -0.001)" fill={fill} fillOpacity={fillOpacity}/></svg>);
 }
 
-export { Microphone, MicrophoneSlash, Video, VideoSlash };
+export { Location, Microphone, MicrophoneSlash, Video, VideoSlash };

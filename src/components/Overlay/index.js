@@ -28,9 +28,9 @@ function ProgressBar({ index, lastIndex }) {
   );
 }
 
-const BarButton = React.forwardRef(({ children, name, disabled = false, callback, title }, ref) => (
+const BarButton = React.forwardRef(({ children, name, disabled = false, callback, title, className = '' }, ref) => (
   <button
-    className="barButton"
+    className={`barButton ${className}`}
     name={name}
     onMouseDown={() => playAudioInstance(click3)}
     onClick={callback}
@@ -43,23 +43,26 @@ const BarButton = React.forwardRef(({ children, name, disabled = false, callback
 ));
 
 function Overlay({ disabled = false, callbacks = {} }) {
-  const [modalVisible, setModalVisible] = useState(false);
-  const [infoVisible, setInfoVisible] = useState(false);
-  const [leaving, setLeaving] = useState(false);
-
   const {
     initiated,
     index,
     lastIndex,
+    scene,
     uniqueState,
     setUniqueState
   } = useContext(OverlayContext);
+
+  const [modalVisible, setModalVisible] = useState(false);
+  const [infoVisible, setInfoVisible] = useState(false);
+  const [leaving, setLeaving] = useState(false);
+  const [readScenes, setReadScenes] = useState([]);
 
   const toggleInfo = useCallback((state) => {
     const show = () => {
       if (!infoVisible) {
         setInfoVisible(true);
         playAudioInstance(expand);
+        setReadScenes((prevScenes) => [...prevScenes, scene]);
       }
     };
 
@@ -85,7 +88,7 @@ function Overlay({ disabled = false, callbacks = {} }) {
           show();
         }
     }
-  }, [infoVisible, setUniqueState, uniqueState]);
+  }, [infoVisible, scene, setUniqueState, uniqueState]);
 
   const toggleLeave = (state) => {
     const show = () => {
@@ -194,7 +197,9 @@ function Overlay({ disabled = false, callbacks = {} }) {
                   disabled={(index <= 1 || infoVisible)}
                   title="Return to the previous scene"
                 >
-                  <ArrowLeft />
+                  <div className="svgContainer">
+                    <ArrowLeft />
+                  </div>
                   Prev
                 </BarButton>
               )}
@@ -208,7 +213,9 @@ function Overlay({ disabled = false, callbacks = {} }) {
                   disabled={(index === lastIndex - 1 || infoVisible)}
                   title="Go to the next scene"
                 >
-                  <ArrowRight />
+                  <div className="svgContainer">
+                    <ArrowRight />
+                  </div>
                   Next
                 </BarButton>
               )}
@@ -219,9 +226,14 @@ function Overlay({ disabled = false, callbacks = {} }) {
               callback={() => toggleModal('info', true)}
               disabled={(infoVisible)}
               title="Click or press the “i” key to open"
+              className={(readScenes.includes(scene)) ? '' : ' unread'}
             >
-              <Location />
-              Where am I?
+              <div className="svgContainer">
+                <Location />
+              </div>
+              <span>
+                Where am I?
+              </span>
             </BarButton>
           </>
         )}
