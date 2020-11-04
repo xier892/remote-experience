@@ -6,6 +6,7 @@ import Info from 'components/Overlay/Info';
 import LeaveModal from 'components/Overlay/LeaveModal';
 import Button from 'components/Button';
 import { ReactComponent as Location } from 'media/image/location.svg';
+import { ReactComponent as LocationOutline } from 'media/image/location-outline.svg';
 import { ReactComponent as ArrowLeft } from 'media/image/arrow-left.svg';
 import { ReactComponent as ArrowRight } from 'media/image/arrow-right.svg';
 import playAudioInstance from 'api/playAudioInstance';
@@ -229,7 +230,7 @@ function Overlay({ disabled = false, callbacks = {} }) {
               className={(readScenes.includes(scene)) ? '' : ' unread'}
             >
               <div className="svgContainer">
-                <Location />
+                {(readScenes.includes(scene)) ? (<LocationOutline />) : (<Location />)}
               </div>
               <span>
                 Where am I?
