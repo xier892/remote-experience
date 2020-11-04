@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/remote-experience/static/css/main.888e2bf2.chunk.css",
-    "main.js": "/remote-experience/static/js/main.656e5500.chunk.js",
-    "main.js.map": "/remote-experience/static/js/main.656e5500.chunk.js.map",
+    "main.css": "/remote-experience/static/css/main.ded695f6.chunk.css",
+    "main.js": "/remote-experience/static/js/main.676c34fd.chunk.js",
+    "main.js.map": "/remote-experience/static/js/main.676c34fd.chunk.js.map",
     "runtime-main.js": "/remote-experience/static/js/runtime-main.7d728162.js",
     "runtime-main.js.map": "/remote-experience/static/js/runtime-main.7d728162.js.map",
     "static/js/2.4b77bb94.chunk.js": "/remote-experience/static/js/2.4b77bb94.chunk.js",
     "static/js/2.4b77bb94.chunk.js.map": "/remote-experience/static/js/2.4b77bb94.chunk.js.map",
     "index.html": "/remote-experience/index.html",
-    "precache-manifest.f3764f24fbf877d7aeb03c3b05654145.js": "/remote-experience/precache-manifest.f3764f24fbf877d7aeb03c3b05654145.js",
+    "precache-manifest.d06c0746b3711635c201bc15d12c41db.js": "/remote-experience/precache-manifest.d06c0746b3711635c201bc15d12c41db.js",
     "service-worker.js": "/remote-experience/service-worker.js",
-    "static/css/main.888e2bf2.chunk.css.map": "/remote-experience/static/css/main.888e2bf2.chunk.css.map",
+    "static/css/main.ded695f6.chunk.css.map": "/remote-experience/static/css/main.ded695f6.chunk.css.map",
     "static/js/2.4b77bb94.chunk.js.LICENSE.txt": "/remote-experience/static/js/2.4b77bb94.chunk.js.LICENSE.txt",
     "static/media/Alert 1.m4a": "/remote-experience/static/media/Alert 1.4f61f23f.m4a",
     "static/media/Alert 2.m4a": "/remote-experience/static/media/Alert 2.0f43c6e3.m4a",
@@ -56,6 +56,7 @@
     "static/media/enableSharing.png": "/remote-experience/static/media/enableSharing.fb65291f.png",
     "static/media/inaccessible-mouse-pointer.svg": "/remote-experience/static/media/inaccessible-mouse-pointer.a484729e.svg",
     "static/media/jazz-ambient.mp3": "/remote-experience/static/media/jazz-ambient.d9514898.mp3",
+    "static/media/location-outline.daacf029.svg": "/remote-experience/static/media/location-outline.daacf029.svg",
     "static/media/location.fb1b5447.svg": "/remote-experience/static/media/location.fb1b5447.svg",
     "static/media/typography.css": "/remote-experience/static/media/poppins-latin-600.b54e7266.woff2",
     "static/media/microphone-slash.4e8c4def.svg": "/remote-experience/static/media/microphone-slash.4e8c4def.svg",
@@ -82,7 +83,7 @@
   "entrypoints": [
     "static/js/runtime-main.7d728162.js",
     "static/js/2.4b77bb94.chunk.js",
-    "static/css/main.888e2bf2.chunk.css",
-    "static/js/main.656e5500.chunk.js"
+    "static/css/main.ded695f6.chunk.css",
+    "static/js/main.676c34fd.chunk.js"
   ]
 }

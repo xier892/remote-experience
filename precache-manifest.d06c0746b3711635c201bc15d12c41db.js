@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e15af6458b75103a50206e97c37a8a59",
+    "revision": "d9ad5b6e430d15155f7a773453678847",
     "url": "/remote-experience/index.html"
   },
   {
-    "revision": "5e89b6f196ced97f411d",
-    "url": "/remote-experience/static/css/main.888e2bf2.chunk.css"
+    "revision": "dbb96ca25d6eee48798f",
+    "url": "/remote-experience/static/css/main.ded695f6.chunk.css"
   },
   {
     "revision": "db5290fc5fa3e8a31875",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/remote-experience/static/js/2.4b77bb94.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "5e89b6f196ced97f411d",
-    "url": "/remote-experience/static/js/main.656e5500.chunk.js"
+    "revision": "dbb96ca25d6eee48798f",
+    "url": "/remote-experience/static/js/main.676c34fd.chunk.js"
   },
   {
     "revision": "ae2d3174d6ce6547f02d",
@@ -198,6 +198,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "d951489803e1e67db57bc445abddd77a",
     "url": "/remote-experience/static/media/jazz-ambient.d9514898.mp3"
+  },
+  {
+    "revision": "daacf029805d3a1d8dadd8e634cf1c33",
+    "url": "/remote-experience/static/media/location-outline.daacf029.svg"
   },
   {
     "revision": "fb1b5447f9233087956c3b41a9115d43",
