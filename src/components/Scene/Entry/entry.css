@@ -138,6 +138,10 @@ button.statusItem {
   max-height: 6em;
 }
 
+.statusItem img {
+  max-height: 100%;
+}
+
 .statusItem p:first-of-type {
   margin-bottom: 0.5em;
 }
@@ -175,5 +179,12 @@ button.statusItem {
   }
   100% {
     background: transparent;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .waitingRoom .tableColumn[title="Host"],
+  .waitingRoom .tableColumn[title="Participant ID"] {
+    display: none;
   }
 }

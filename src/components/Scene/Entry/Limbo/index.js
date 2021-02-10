@@ -19,7 +19,7 @@ const participantID = generateRandomNumber(6);
 
 function TableColumn({ title, children }) {
   return (
-    <div className="tableColumn">
+    <div className="tableColumn" title={title}>
       <span className="textSemibold title">{title}:</span>
       <span className="children">{children}</span>
     </div>
