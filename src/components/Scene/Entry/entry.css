@@ -134,7 +134,8 @@ button.statusItem {
   transform: translateY(2px);
 }
 
-.statusItem .svgContainer {
+.statusItem .svgContainer,
+.statusItem img {
   max-height: 6em;
 }
 
