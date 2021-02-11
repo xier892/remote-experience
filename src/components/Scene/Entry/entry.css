@@ -44,14 +44,21 @@
   justify-content: space-around;
 }
 
-.waitingRoom .table {
+.meetingInfo {
   margin: 0 auto;
-  width: 65.79%;
   transition: transform 1s cubic-bezier(0.08,0.82,0.17,1);
   animation: slide-in-top 1s cubic-bezier(0.08,0.82,0.17,1) backwards;
 }
 
-.scene:not(.visible) .waitingRoom .table {
+.meetingInfo td:first-of-type {
+  padding-right: 64px;
+}
+
+.meetingInfo td {
+  padding-bottom: 32px;
+}
+
+.scene:not(.visible) .meetingInfo {
   transform: translateY(-100%);
 }
 
@@ -184,8 +191,8 @@ button.statusItem {
 }
 
 @media screen and (max-height: 768px) {
-  .waitingRoom .tableColumn[title="Host"],
-  .waitingRoom .tableColumn[title="Participant ID"] {
+  .meetingInfo tr[title="Host"],
+  .meetingInfo tr[title="Participant ID"] {
     display: none;
   }
 }

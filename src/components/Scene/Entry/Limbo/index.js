@@ -19,10 +19,10 @@ const participantID = generateRandomNumber(6);
 
 function TableColumn({ title, children }) {
   return (
-    <div className="tableColumn" title={title}>
-      <span className="textSemibold title">{title}:</span>
-      <span className="children">{children}</span>
-    </div>
+    <tr title={title}>
+      <td className="textSemibold">{title}:</td>
+      <td>{children}</td>
+    </tr>
   );
 }
 
@@ -31,41 +31,43 @@ function WaitingTable() {
   const [linkCopied, setLinkCopied] = useState(false);
 
   return (
-    <div className="table">
-      <TableColumn title="Meeting Topic">
-        <span>The Remote Experience</span>
-      </TableColumn>
-      <TableColumn title="Host">
-        <span className="textScrambled">Ricky Xie</span>
-      </TableColumn>
-      {/* <TableColumn title="Password">
-        <span>{password}</span>
-      </TableColumn> */}
-      <TableColumn title="Invitation URL">
-        <span
-          className={(linkCopied) ? 'copied' : ''}
-          onAnimationEnd={() => {
-            setLinkCopied(false);
-          }}
-        >
-          {window.location.href}
-        </span>
-        <button
-          className="copyUrl"
-          onClick={() => {
-            navigator.clipboard.writeText(window.location.href).then(() => {
-              playAudioInstance(success1);
-              setLinkCopied(true);
-            });
-          }}
-        >
-          <span className="textSmall">Copy URL</span>
-        </button>
-      </TableColumn>
-      <TableColumn title="Participant ID">
-        <span>{id}</span>
-      </TableColumn>
-    </div>
+    <table className="meetingInfo">
+      <tbody>
+        <TableColumn title="Meeting Topic">
+          <span>The Remote Experience</span>
+        </TableColumn>
+        <TableColumn title="Host">
+          <span className="textScrambled">Ricky Xie</span>
+        </TableColumn>
+        {/* <TableColumn title="Password">
+          <span>{password}</span>
+        </TableColumn> */}
+        <TableColumn title="Invitation URL">
+          <span
+            className={(linkCopied) ? 'copied' : ''}
+            onAnimationEnd={() => {
+              setLinkCopied(false);
+            }}
+          >
+            {window.location.href}
+          </span>
+          <button
+            className="copyUrl"
+            onClick={() => {
+              navigator.clipboard.writeText(window.location.href).then(() => {
+                playAudioInstance(success1);
+                setLinkCopied(true);
+              });
+            }}
+          >
+            <span className="textSmall">Copy URL</span>
+          </button>
+        </TableColumn>
+        <TableColumn title="Participant ID">
+          <span>{id}</span>
+        </TableColumn>
+      </tbody>
+    </table>
   );
 }
 
